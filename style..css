@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    
+    width: 100%;
+    height: 500px;
+}
+
+/************************************* Search Bar *******************************/
+
+.search{
+    background: linear-gradient(
+      180deg, orangered,#743a26);
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    padding: 10px 150px 0 0 ;
+}
+
+.searchbox{
+    background-color:#be2503ff;
+    height: 20px;
+    width: 10%;
+    text-align: left;
+    font-size: 1px;
+    color: whitesmoke;
+    padding: 0 0 0 10px;
+    
+}
+
+/**************************** Navbar**************************  */
+
+
+.navbar{
+    background: linear-gradient( #342a2bff, #33292aff);
+    height: 60px;
+    padding: 13px 0 0 60px;
+    padding-right: 40px;
+    
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    
+    
+
+
+}
+
+li{
+    float: left;
+    
+    
+    
+    
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 40px 0 0 ;
+    
+    
+
+}
+li a:hover{
+    color: #b3c426ff;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    
+}
+.lg2{
+    color: #b3c426ff;
+}
+
+
+
+
+
+.middle{
+    background: radial-gradient(  #db3306ff , #ec530dff);
+    height: 400px;
+    padding: 50px 0 0 100px;
+}
+.Img{
+    
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+.contentbox{
+    
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+h2{
+    color: white;
+}
+p{
+    color: whitesmoke;
+    margin: 0 0 50px 0;
+}
+
+.btn{
+    background-color: #c8e21dff;
+    color: white;
+    padding: 20px;
+    height: 50px;
+    width: 150px;
+}
+/*************************************************** MIDDLE SECTION******************************************* */
+.middlesec{
+    background-color: #b7b5b6ff;
+    height: 300px;
+    width: 100%;
+
+}
+.one{
+    
+    height: 150px;
+    width: 100%;
+}
+.two{
+    
+    height: 150px;
+    width: 100%;
+}
+.box1{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+.box2{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+
+}
+.box3{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+.box4{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+.box5{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+.box6{
+    
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+
+/********************************************* FOOTER*************************** */
+.footer{
+    background-color:#392d2fff;
+    height: 300px;
+    width: 100%;
+}
+.links{
+    
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+
+.posts{
+    
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+
+.twitter{
+   
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+
+.about{
+    
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+.copyright{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    color:whitesmoke;
+    font-weight: 100;
+    text-align: center;
+    
+}
